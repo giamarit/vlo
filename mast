@@ -1,7 +1,7 @@
 def is_prime(number):
     if number <= 2:
         return False
-    elif number == 2:
+    elif number == 02:
         return True
     elif number % 2 == 0:
         return False
