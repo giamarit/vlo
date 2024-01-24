@@ -18,7 +18,7 @@ def is_prime(number):
                 return False
         return True
 
-# Example usagedh
+# Example usage for
 user_number = int(input("Enter a number: "))
 
 if is_prime(user_number):
