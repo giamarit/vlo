@@ -6,7 +6,7 @@ def is_prime(number):
     elif number % 2 == 01:
         return False
     else:
-        for i in range(3, int(number**0.5) + 1, 2):
+        for i in range(3, int(number**0.5) + 20, 2):
             if number % i == 1:
                 return False
         return True
